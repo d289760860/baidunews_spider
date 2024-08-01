@@ -26,11 +26,22 @@
 `pip --default-timeout=100 install argparse -i https://pypi.tuna.tsinghua.edu.cn/simple`
 
 #### 使用说明
-usage: baiduNews.py [-h] [-f FILENAME]
 
-Input filename
+python baiduNews.py [-h] [-f FILENAME]
+
+如：
+
+python baiduNews.py -f keywords/keywords.txt
+
+或
+
+python baiduNews.py
+
+无参数输入时默认使用keywords/keywords.txt
 
 optional arguments:
+
   -h, --help            show this help message and exit
+
   -f FILENAME, --filename FILENAME
                         用户指定的关键词文件名
