@@ -14,13 +14,12 @@
 
 因为国内直接使用pip install安装速度较慢，因此使用清华源安装。
 
-`
-conda create -n py37 python=3.7
-conda activate py37
-pip --default-timeout=100 install selenium -i https://pypi.tuna.tsinghua.edu.cn/simple
-pip --default-timeout=100 install beautifulsoup4 -i https://pypi.tuna.tsinghua.edu.cn/simple
-pip --default-timeout=100 install argparse -i https://pypi.tuna.tsinghua.edu.cn/simple
-`
+
+`conda create -n py37 python=3.7`
+`conda activate py37`
+`pip --default-timeout=100 install selenium -i https://pypi.tuna.tsinghua.edu.cn/simple`
+`pip --default-timeout=100 install beautifulsoup4 -i https://pypi.tuna.tsinghua.edu.cn/simple`
+`pip --default-timeout=100 install argparse -i https://pypi.tuna.tsinghua.edu.cn/simple`
 
 #### 使用说明
 usage: baiduNews.py [-h] [-f FILENAME]
